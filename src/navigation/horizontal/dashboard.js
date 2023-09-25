@@ -5,19 +5,18 @@ export default [
     children: [
       {
         title: 'Analytics',
-        to: 'dashboards-analytics',
-        icon: { icon: 'tabler-chart-pie-2' },
+        to: 'buildoo-home',
       },
       {
         title: 'eCommerce',
-        to: 'dashboards-ecommerce',
-        icon: { icon: 'tabler-atom-2' },
+        to: 'buildoo-branding',
       },
       {
         title: 'CRM',
         to: 'dashboards-crm',
-        icon: { icon: 'tabler-3d-cube-sphere' },
       },
     ],
+    badgeContent: '3',
+    badgeClass: 'bg-primary',
   },
 ]

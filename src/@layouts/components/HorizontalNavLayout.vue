@@ -40,7 +40,7 @@ const {
     >
       <!-- 👉 Navbar -->
       <div class="layout-navbar">
-        <div class="navbar-content-container">
+        <div>
           <slot name="navbar" />
         </div>
       </div>

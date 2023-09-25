@@ -1,22 +1,19 @@
 export default [
   {
-    title: 'Dashboards',
-    icon: { icon: 'tabler-smart-home' },
-    children: [
-      {
-        title: 'Analytics',
-        to: 'dashboards-analytics',
-      },
-      {
-        title: 'eCommerce',
-        to: 'dashboards-ecommerce',
-      },
-      {
-        title: 'CRM',
-        to: 'dashboards-crm',
-      },
-    ],
-    badgeContent: '3',
-    badgeClass: 'bg-primary',
+    title: 'Branding',
+    icon: { icon: 'tabler-palette' },
+    to: 'buildoo-Branding',
   },
+  {
+    title: 'Settings',
+    icon: { icon: 'tabler-settings' },
+    to: 'buildoo-Settings',
+  },
+  {
+    title: 'Build',
+    icon: { icon: 'tabler-geometry' },
+    to: 'buildoo-Build',
+  },
+
+   
 ]
